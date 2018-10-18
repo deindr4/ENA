@@ -77,7 +77,7 @@ winbox releases prior to 04/20/2018
             "type": "string",
             "description": "The Mikrotik device's winbox port number.",
             "required": True,
-            "default": 8291
+            "default": None
         }
     }
 }
