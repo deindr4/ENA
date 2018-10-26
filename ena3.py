@@ -20,6 +20,7 @@ import sys
 import socket
 import hashlib
 import logging
+from extract_user import dump
  
 FIRST_PAYLOAD = \
     [0x68, 0x01, 0x00, 0x66, 0x4d, 0x32, 0x05, 0x00,
